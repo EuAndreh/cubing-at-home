@@ -4,5 +4,5 @@
   shellHook = ''
     ${oldAttrs.shellHook}
     ln -sf $NODE_PATH
-  ''
-});
+  '';
+})
